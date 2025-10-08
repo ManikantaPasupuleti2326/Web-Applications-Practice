@@ -1,0 +1,344 @@
+#header {
+    position: relative;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    /* background-color: yellow;  */
+}
+
+#logo>img {
+    height: 80px;
+    width: 160px;
+}
+
+#logo {
+    position: absolute;
+    left: 100px;
+    margin-top: 10px;
+}
+
+.buttons {
+    position: absolute;
+    display: flex;
+    left: 550px;
+
+}
+
+.buttons>button {
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 40px;
+    width: 80px;
+    border: 0px;
+    border-radius: 45px;
+
+
+}
+
+#loginButtons {
+    position: absolute;
+    display: flex;
+    right: 90px;
+
+
+}
+
+#loginButtons>button {
+    margin-left: 30px;
+    height: 50px;
+    width: 100px;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 40px;
+
+}
+
+#article:hover {
+    border: solid 2px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+
+}
+
+#people:hover {
+    border: solid 2px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+
+}
+
+#learning:hover {
+    border: solid 2px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+
+}
+
+#jobs:hover {
+    border: solid 2px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+
+}
+
+#games:hover {
+    border: solid 2px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+
+}
+
+#getApp:hover {
+    border: solid 2px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+
+}
+
+#loginButton:hover {
+    font-weight: bolder;
+    background-color: rgb(60, 146, 221);
+}
+
+#signinButton:hover {
+    font-weight: bolder;
+    background-color: rgb(60, 146, 221);
+}
+
+
+
+
+.loginSection {
+    position: relative;
+    display: flex;
+    height: 600px;
+    width: 100vw;
+    /* background-color: green; */
+}
+
+#pic {
+    position: absolute;
+    display: flex;
+    right: 0px;
+}
+
+#pic>img {
+    height: 600px;
+    width: 600px;
+    border-radius: 400px;
+}
+
+#loginApplicatioin {
+    position: relative;
+    left: 300px;
+    margin-top: 150px;
+    /* background-color: brown; */
+}
+
+#loginApplicatioin>button {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 400px;
+    margin: 40px;
+    text-align: center;
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    border-radius: 40px;
+    padding: 10px;
+    font-size: medium;
+}
+
+#loginWithGoogle:hover {
+    font-weight: bolder;
+    background-color: rgb(60, 146, 221);
+}
+
+#loginWithMicrosoft:hover {
+    font-weight: bolder;
+    background-color: rgb(60, 146, 221);
+}
+
+#loginWithEmail:hover {
+    font-weight: bolder;
+    background-color: rgb(60, 146, 221);
+}
+
+#para {
+    position: absolute;
+    display: flex;
+    left: 10px;
+    font-size: medium;
+    /* background-color: yellow; */
+
+}
+
+#userAgreement {
+    align-items: center;
+    text-align: center;
+}
+
+
+#segment3 {
+    position: relative;
+    display: flex;
+    height: 180px;
+    width: 100vw;
+    background-color: rgb(216, 197, 158);
+}
+
+.details {
+    position: absolute;
+    display: flex;
+    left: 10px;
+    width: 100vw;
+}
+
+#explore {
+    position: absolute;
+    display: flex;
+    font-size: x-large;
+    font-weight: bold;
+    margin-top: 0px;
+    /* background-color: green; */
+}
+
+#we {
+    position: absolute;
+    display: flex;
+    font-size: large;
+    margin-top: 45px;
+    /* background-color: blue; */
+}
+
+.buttonFeatures {
+    position: absolute;
+    display: flex;
+    /* background-color: green; */
+    margin-top: 100px;
+    left: 8px;
+}
+
+.buttonFeatures>button {
+    height: 40px;
+    border-radius: 40px;
+    margin: 5px;
+    border: solid 1px;
+}
+
+#marketing {
+    display: flex;
+    padding: 10px;
+}
+
+#marketing:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+#publicAdministration:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+#healthcare:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+#engineering:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+#ITServices:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+#sustainability:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+#businessAdministration:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+#telecommunications:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+#HRManagement:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+#showAll:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+
+#segment4 {
+    position: relative;
+    display: flex;
+    height: 150px;
+    width: 100vw;
+    /* background: green; */
+}
+
+#findthe {
+    position: absolute;
+    display: flex;
+    /* background-color: blue; */
+}
+#findthe>p {
+    font-size: x-large;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+.buttonFeatures4 {
+    position: absolute;
+    display: flex;
+    margin-top: 70px;
+    left: 8px;
+}
+.buttonFeatures4>button {
+    display: flex;
+    height: 40px;
+    margin: 5px;
+    border-radius: 40px;
+    border: solid 1px;
+    padding: 12px;
+}
+
+.buttonFeatures4>button:hover {
+    border: solid 1px;
+    border-color: rgb(60, 146, 221);
+    font-weight: bolder;
+    background-color: aliceblue;
+}
+
+
+
