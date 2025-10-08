@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(60deg, rgb(106, 106, 233), rgb(107, 230, 107));
+}
+
+.Box {
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    
+}
+
+#heading>input {
+    margin-top: 2px;
+    font-weight: bold;
+    height: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+#heading>button {
+    margin-top: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(109, 109, 227);
+    font-weight: bolder;
+}
+
+#cityName {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#temparature {
+    font-size: large;
+    font-weight: bold;
+}
+
+#skyStatus {
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#windSpeed {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.weatherDetails {
+    font-size: larger;
+    font-weight: bold;
+
+}
