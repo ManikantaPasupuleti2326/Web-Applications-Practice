@@ -1,0 +1,32 @@
+
+#body1{
+    height: 720px;
+    width:100vw;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color: antiquewhite;
+}
+.Time{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:absolute;
+    border:2px solid black;
+    height:100px;
+    width:200px;
+    right: 20px;
+    top: 20px;
+    font-size: large;
+    background-color: rgba(23, 200, 232, 0.537);
+    
+}
+#image{
+    height:500px;
+    margin-top: 200px;
+    max-width:fit-content;
+}
+#image>img{
+    height: 400px;
+    width: 800px;
+}
